@@ -2,7 +2,7 @@ node_modules/
 eslint.config.mjs
 package-lock.json
 package.json
-.husky
+.husky/
 .markdownlint-cli2.jsonc
 cspell.json
 
