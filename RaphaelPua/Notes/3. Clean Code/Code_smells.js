@@ -65,5 +65,5 @@ class SalaryCalculator {
 }
 
 class ReportGenerator {
-  generateRepor() {}
+  generateReport() {}
 }
