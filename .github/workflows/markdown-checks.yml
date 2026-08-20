@@ -2,6 +2,8 @@ name: Markdown Checks
 
 on:
   pull_request:
+    branches:
+      - main
 
 jobs:
   markdown-check:
