@@ -1,2 +1,1 @@
-This project is very maintanable.
-Hatee
+This project is very maintainable.

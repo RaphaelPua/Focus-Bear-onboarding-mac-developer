@@ -1,5 +1,5 @@
 
-#Weekly Workload
+# Weekly Workload
 
 Monday (Work from Home/University): 8 hrs
 - 9:00am - 10:00am (Uni Lecture)

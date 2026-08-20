@@ -2,7 +2,7 @@
 # Intern Portal issues:
 1. The intern portal should have been able to fork the main repository for me but it did not, I had to manually fork it and have my own folders to store all my reflections and work
 
-2. Unable to link the focus bear app to my intern portal. The focus sessions I do, do not automatically connect and sync with the intern portal. I have to mannually log each of my work one by one.
+2. Unable to link the focus bear app to my intern portal. The focus sessions I do, do not automatically connect and sync with the intern portal. I have to manually log each of my work one by one.
 
 3. I think the bot has to review my work and repository however, I do not see the bot doing any reviewing so currently I am just finishing all the modules without consistent feedback
 

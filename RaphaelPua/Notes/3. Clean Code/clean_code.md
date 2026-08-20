@@ -69,7 +69,7 @@ A good approach is:
 ## Why is code formatting important?
 
 - Code formatting is important because it makes code easier to read, understand, and maintain. Consistent formatting means that developers can quickly understand the structure of the code without having to interpret different formatting styles. This is especially important when working in a team because everyone can follow the same conventions.
-- The addition of Prittier and ESlint was a game changer as it helps me with manually checking things like my format or issues, Really helps me focus on more important things such as the functionality of the code, instead of fixing the formattings.
+- The addition of Prettier and ESlint was a game changer as it helps me with manually checking things like my format or issues, Really helps me focus on more important things such as the functionality of the code, instead of fixing the formatting.
 
 ## What issues did the linter detect?
 
@@ -90,7 +90,7 @@ A good approach is:
 
 ## What issues can arise from poorly named variables?
 
-- A poorly named variable will make it significantly harder for the code to be maintained or changed. It would further take time for the developer to change the code and help fix the issue as the developer may need to ask the one who made the code what the variables or functions do, or they would need to analyse the code more throughly first. It can also lead to issues as developers may mistake the variable or function for something else.
+- A poorly named variable will make it significantly harder for the code to be maintained or changed. It would further take time for the developer to change the code and help fix the issue as the developer may need to ask the one who made the code what the variables or functions do, or they would need to analyse the code more thoroughly first. It can also lead to issues as developers may mistake the variable or function for something else.
 
 # Writing Small, Focused Functions
 
@@ -100,12 +100,12 @@ A good approach is:
 
 ## Why is breaking down functions beneficial?
 
-- Breaking down the functions allows others to understand the each chunk of code easier to understand, test, maintain, and change. It helps with identifying where the issue is comming from, instead on trying to understand the whole function when everything is in it, and accidentally affecting the whole function when you are making changes. At least with seperate functions you are able to impact that one particular function and fix your mistakes. Functions is great for reusability, as you would only need to call the function instead on copy pasting code or making a new one.
+- Breaking down the functions allows others to understand the each chunk of code easier to understand, test, maintain, and change. It helps with identifying where the issue is coming from, instead on trying to understand the whole function when everything is in it, and accidentally affecting the whole function when you are making changes. At least with separate functions you are able to impact that one particular function and fix your mistakes. Functions is great for reusability, as you would only need to call the function instead on copy pasting code or making a new one.
 
 ## How did refactoring improve the structure of the code?
 
 - Refactoring improved the overall structure and format of the function. It is now more understandable as each function helps indicate what the chunk of code does and lets me understand without eventually taking away the whole picture of what the main function is trying to do.
-- The samller functions also makes it easier to test codes as each area can now be properly tested by calling the associated function. Thus finding and resolving issues is much easier.
+- The smaller functions also makes it easier to test codes as each area can now be properly tested by calling the associated function. Thus finding and resolving issues is much easier.
 
 # Avoiding Code Duplication
 
@@ -120,20 +120,20 @@ A good approach is:
 # Refactoring Code for Simplicity
 
 ## What made the original code complex?
-- So the code that I got had deep nested "if" statements which meant that it went like: if->if->if->else->else->etc. This mhas led me to go over each if statement and understand what happens next if it is true or not. It made it difficult to follow the overall code as the nested "if" statements made it look very complicated as it was conditional to the other "if" statements. The code itself was originally responsible for checking a lot of things such as if the user existed, if they were active, how much balance they have, etc. So all these "if" statements really made it difficult to analyse the code.
+- So the code that I got had deep nested "if" statements which meant that it went like: if->if->if->else->else->etc. This has led me to go over each if statement and understand what happens next if it is true or not. It made it difficult to follow the overall code as the nested "if" statements made it look very complicated as it was conditional to the other "if" statements. The code itself was originally responsible for checking a lot of things such as if the user existed, if they were active, how much balance they have, etc. So all these "if" statements really made it difficult to analyse the code.
 
 ## How did refactoring improve it?
-- I improved it by not only seperating each "if" statements into seperate functions, I also further improved its efficiency by adding early returns so the system does not have to go through the whole code before giving its log name. It can immediately just returns the given log message if it deems one of functions were not met. 
+- I improved it by not only separating each "if" statements into separate functions, I also further improved its efficiency by adding early returns so the system does not have to go through the whole code before giving its log name. It can immediately just returns the given log message if it deems one of functions were not met. 
 - Overall, the refactored code is more readable because the logic can be followed from top to bottom. It is also easier to maintain because I can check and make changes to different functions instead of modifying the whole large block of nested code.
 
 
 # Comments & Documentation
 
 ## When should you add comments?
-- Commetns should be used to further provice useful information that cannot be easily understood by the given code. This can be because an explanation/"Why" of the code is needed, the reason for creating the code is unintuitive/weird code, and decribing a business rule. This can help developers to further understand why this code is made, and it also makes it faster for them to understand the code itself and what are its inputs and outputs.
+- Comments should be used to further provide useful information that cannot be easily understood by the given code. This can be because an explanation/"Why" of the code is needed, the reason for creating the code is unintuitive/weird code, and describing a business rule. This can help developers to further understand why this code is made, and it also makes it faster for them to understand the code itself and what are its inputs and outputs.
 
 ## When should you avoid comments and instead improve the code?
-- You shold avoid commenting when improving the code already helps you understand the code is important because adding unnecessary comments can clutter the code and make it harder to look for the correct code. At times, using meaningful variables and naming, refactoring and breaking the code into smaller chunks improves the code enough to explain the code itself; and thus do not need comments to explain anything. I found that clear code can often explain what is happening without requiring comments. Comments are most useful when they explain the reasoning or context behind a decision rather than simply describing the code. Comments should be avoided when they simply describe what the code is already doing. For example, a comment such as `// Add 1 to age` is unnecessary when the code clearly shows `age = age + 1`.
+- You should avoid commenting when improving the code already helps you understand the code is important because adding unnecessary comments can clutter the code and make it harder to look for the correct code. At times, using meaningful variables and naming, refactoring and breaking the code into smaller chunks improves the code enough to explain the code itself; and thus do not need comments to explain anything. I found that clear code can often explain what is happening without requiring comments. Comments are most useful when they explain the reasoning or context behind a decision rather than simply describing the code. Comments should be avoided when they simply describe what the code is already doing. For example, a comment such as `// Add 1 to age` is unnecessary when the code clearly shows `age = age + 1`.
 
 # Handling Errors & Edge Cases
 
@@ -147,10 +147,10 @@ A good approach is:
 # Writing Unit Tests
 
 ## How do unit tests help keep code clean?
-- Unit test really help with keeping the code clean and realiable as it helps me check if the functions actually work as expected. It essentially helps with testing potential bugs in the early stages to avoid and make the code more robust.
+- Unit test really help with keeping the code clean and reliable as it helps me check if the functions actually work as expected. It essentially helps with testing potential bugs in the early stages to avoid and make the code more robust.
 - Unit tests also make refactoring safer because I can change the implementation of a function and run the tests to make sure its behaviour has not changed. The tests can also act as documentation because they show examples of how the function is expected to behave.
 - I chose Jest as my testing framework because my the recent projects I used were from JavaScript and Jest provides a simple way to create and run unit tests. I wrote tests for my `calculateAverageScore()` function to check normal inputs as well as edge cases.
 
 ## What issues did you find while testing?
-- I found that I was failing 2 of the original tests I made, specifically to test if it can catch errors with having "[]" arrays and null inputs. I didn't know why it was failing until I realised that the null i was using was "NULL" isntead of "null". After fixing this issue, the code passed the tests. This tool is really great as it helps tests the code I changed and also tells me what the problem with my code is as well. It helps detect behavior that is not to be expected which is very important in making a robust and accurate code. This demonstrated how unit testing can help identify problems and provide confidence when modifying code.
+- I found that I was failing 2 of the original tests I made, specifically to test if it can catch errors with having "[]" arrays and null inputs. I didn't know why it was failing until I realised that the null i was using was "NULL" instead of "null". After fixing this issue, the code passed the tests. This tool is really great as it helps tests the code I changed and also tells me what the problem with my code is as well. It helps detect behaviour that is not to be expected which is very important in making a robust and accurate code. This demonstrated how unit testing can help identify problems and provide confidence when modifying code.
 

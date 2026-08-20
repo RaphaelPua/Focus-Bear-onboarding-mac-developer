@@ -8,4 +8,4 @@
 
 ## Improve my team collaboration
 
-- Definitely talking to my team more would further improve our team collaboration. As of now we are doing are own thing and only meet up during the daily stand-up meeetings. I believe that having a proper conversations outside of the meetings and work would be beneficial as it will allow us to be more open to ask for help to one another. These conversation would help us become more efficient and make out quality of work much more consistent/better.
+- Definitely talking to my team more would further improve our team collaboration. As of now we are doing are own thing and only meet up during the daily stand-up meetings. I believe that having a proper conversations outside of the meetings and work would be beneficial as it will allow us to be more open to ask for help to one another. These conversation would help us become more efficient and make out quality of work much more consistent/better.

@@ -11,7 +11,7 @@
 4. Use password manager consistently instead of relying on my memory
 5. Ensure my devices automatically lock when I am away
 
-# Secure Behavior a Habit
+# Secure Behaviour a Habit
 - Treating security as part of my everyday life and in my everyday workflows
 - be more cautious to suspicious messages or unexpected messages even if it is from someone I know
 - I need to always start pausing and verifying links before I click them
@@ -25,5 +25,5 @@
 1. Stop interacting with the suspicious activity or thing
 2. Disconnect the device to the network
 3. Change all of my passwords from the trusted device that I am using
-4. Report and contact appropriate Focus Bear supervisor immediately and follow thier instructions
+4. Report and contact appropriate Focus Bear supervisor immediately and follow their instructions
 5. Monitor and record any further suspicious activity 

@@ -2,7 +2,7 @@
 # Identifying and Fixing Code Smells
 
 ## What code smells did you find in your code?
-- So my code had several of the common smells, including the magic numbers, long functions, some duplicated codes, deeply nested funtions, and mixed naming of variables. Fixing and refactoring these smelly code made it easier for me to read the code and understand them. Some changes were more complicated such as needing to refactor codes, but other such as fixing the namings were easier to do. 
+- So my code had several of the common smells, including the magic numbers, long functions, some duplicated codes, deeply nested functions, and mixed naming of variables. Fixing and refactoring these smelly code made it easier for me to read the code and understand them. Some changes were more complicated such as needing to refactor codes, but other such as fixing the naming were easier to do. 
 
 ## How did refactoring improve the readability and maintainability of the code?
 - Refactoring made the code easier to understand by breaking large functions into smaller, more focused functions. It also removed duplicated code, reducing the need to make the same changes in multiple places. Separating nested code and "if" statements made each section more readable and independent, making it easier to modify a specific function without affecting other parts of the code.
