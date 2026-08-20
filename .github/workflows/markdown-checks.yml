@@ -1,5 +1,5 @@
 name: Markdown Checks
-
+ 
 on:
   pull_request:
     paths:
@@ -8,7 +8,7 @@ on:
     branches: [main]
     paths:
       - '**/*.md'
-
+ 
 jobs:
   markdown-lint:
     runs-on: ubuntu-latest
@@ -18,7 +18,7 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v16
         with:
           globs: '**/*.md'
-
+ 
   spell-check:
     runs-on: ubuntu-latest
     steps:

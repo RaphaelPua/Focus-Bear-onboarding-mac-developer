@@ -1,0 +1,12 @@
+{
+  "config": {
+    "MD013": false,
+    "MD025": false,
+    "MD022": false,
+    "MD012": false
+  },
+  "ignores": [
+    "node_modules/**",
+    "RaphaelPua/Notes/**"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": "0.2",
+  "language": "en-GB",
+  "files": ["**/*.md"],
+  "ignorePaths": [
+    "node_modules/**",
+    "package-lock.json",
+    ".git/**",
+    "RaphaelPua/Notes/**"
+  ],
+  "words": [
+    "RaphaelPua",
+    "commonjs",
+    "eslint",
+    "prettier",
+    "cspell",
+    "markdownlint",
+    "npm",
+    "npx",
+    "Tiimo",
+    "Routinery",
+    "pomodoro",
+    "microbreaks",
+    "microbreak"
+  ]
+}
