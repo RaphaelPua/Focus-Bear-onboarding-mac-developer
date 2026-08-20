@@ -27,7 +27,7 @@ These tasks are designed to:
 - Build your Swift fundamentals  
 - Help you understand how Xcode really works under the hood  
 - Make you comfortable with permissions, entitlements, and system-level APIs  
-- Prepare you to work on real macOS apps involving networking, helper tools, system events, procesess, TCC permissions, login items, etc.
+- Prepare you to work on real macOS apps involving networking, helper tools, system events, processes, TCC permissions, login items, etc.
 
 By completing the tasks, you will gain the confidence and baseline skill set required for the real projects.
 
