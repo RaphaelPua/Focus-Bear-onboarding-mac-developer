@@ -1,9 +1,11 @@
 {
   "config": {
+    "MD009": false,
     "MD013": false,
     "MD025": false,
     "MD022": false,
-    "MD012": false
+    "MD012": false,
+    "MD047": false
   },
   "ignores": [
     "node_modules/**",
