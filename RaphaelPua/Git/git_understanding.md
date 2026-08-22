@@ -38,3 +38,7 @@ This is a temporary change for testing Git checkout.
 ## Cherry-Pick Experiment
 
 This change was created on a separate branch and will be cherry-picked.
+
+## Merge Conflict Test
+
+- Creating a merge conflict
