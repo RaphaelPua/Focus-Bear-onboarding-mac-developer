@@ -119,6 +119,23 @@ Weaker Commits:
 
 - I learned after reviewing an open-source PR, is that code review is more than simply checking whether the code works. Reviewers should ask questions, try to understand the reasoning of a code by asking questions, and also providing feedback and suggestions to the developer. Additionally, reviewers can further ask for more tests when they are not convince, ensuring that the merged code is robust and is without bugs. I also noticed that the discussion between the developer and reviewers provides useful context about why certain changes were made. Overall, I believe that Pull Requests can support both code quality and knowledge sharing within a development team. 
 
-## Conflict merging
+
+## Merge Conflicts & Conflict Resolution
+
+### Conflict merging
 
 - This is to make a merge conflict, and the goal is to merge this information from this branch to the main branch.
+
+### What caused the conflict?
+
+- The conflict was caused because I added extra texts on git_understanding.md and this lead to a conflict where the main branch did not have these extra texts but the other branch did.
+
+### How did you resolve it?
+
+- I resolved it by choosing to add the incoming changes from the other branch as it would be good to include this documentation on how I merged the branches and added the extra documentation and practice.
+
+### What did you learn?
+
+- I learned that merge conflicts happen when Git cannot automatically combine changes, usually because different branches have modified the same part of a file. It is also good does not automatically chooses which change is the correct one and asks me to make the decision on how to resolve the conflict. This is great as there will be a time when I have to decide with my colleague on how we resolve the merge conflict we have.
+- I also learned that resolving a conflict is not necessarily about choosing one version over the other. In some cases, both changes may contain useful information and can be combined into one final version. I also noticed how Git is able to add both changes if the developers wanted to but the changes may be a bit messed up. The important part is understanding what each change was trying to accomplish.
+- This exercise also showed me why communication is important when multiple developers are working on the same files. Keeping branches focused and regularly integrating changes can reduce the likelihood of difficult conflicts. Overall, this function is a very important one as it avoids ruining the code and it also helps developers make a proper decision on how the conflict can be resolve for the betterment of the whole project.
