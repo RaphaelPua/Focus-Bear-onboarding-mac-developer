@@ -3,4 +3,8 @@ function calculateTotal(price, quantity) {
     return total;
 }
 
+function calculateDiscount(total, discount) {
+    return total - discount;
+}
+
 console.log(calculateTotal(10, 2));
