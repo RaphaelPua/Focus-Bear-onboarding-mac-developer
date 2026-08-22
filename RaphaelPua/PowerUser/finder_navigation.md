@@ -96,3 +96,21 @@ This is useful when I already know the location of a file or folder.
 
 - Shortcut: Option (⌥) + Command (⌘) + F
 - The Recent folder provides quick access to recently used files.
+
+19. Use Finder tags
+
+- Finder allows files and folders to be given coloured tags and custom names. Tags can be used to organise files based on projects, priority, or other categories without moving the files into different folders.
+- For example, I could create tags such as:
+
+- - University
+- - Work
+- - Important
+- - To Review
+
+20. Search using filters
+
+- Finder search can be narrowed down using filters such as file type, modification date, and other attributes. This is useful when I know something about a file but don't remember its exact name or location.
+- For example, I can search for:
+
+- - kind:pdf
+- - to find PDF files.
