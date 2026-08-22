@@ -29,4 +29,12 @@
 
 ### What happens if two people edit the same file on different branches?
 
-- This can lead to something called a merge conflict where 2 or more developers may have changed a file together with their changes overlapping each other. Git cannot determine what would be the correct version and thus would ask the developers which version is the correct one. This adds a layer of protection by preventing any sudden changes and asks for developers to properly manage the change themselves to ensure it does not cause issues to the main branch
+- This can lead to something called a merge conflict where 2 or more developers may have changed a file together with their changes overlapping each other. Git cannot determine what would be the correct version and thus would ask the developers which version is the correct one. This adds a layer of protection by preventing any sudden changes and asks for developers to properly manage the change themselves to ensure it does not cause issues to the main branch.
+
+## Temporary Experiment
+
+This is a temporary change for testing Git checkout.
+
+## Cherry-Pick Experiment
+
+This change was created on a separate branch and will be cherry-picked.
