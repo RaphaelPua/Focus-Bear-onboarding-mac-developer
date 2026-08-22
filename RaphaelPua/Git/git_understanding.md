@@ -31,10 +31,26 @@
 
 - This can lead to something called a merge conflict where 2 or more developers may have changed a file together with their changes overlapping each other. Git cannot determine what would be the correct version and thus would ask the developers which version is the correct one. This adds a layer of protection by preventing any sudden changes and asks for developers to properly manage the change themselves to ensure it does not cause issues to the main branch.
 
-## Temporary Experiment
+## Advanced Git Commands & When to Use Them
+
+### Temporary Experiment
 
 This is a temporary change for testing Git checkout.
 
-## Cherry-Pick Experiment
+### Cherry-Pick Experiment
 
 This change was created on a separate branch and will be cherry-picked.
+
+### What does each command do? When would you use it in a real project (hint: these are all really important in long running projects with multiple developers)?
+
+- The "git checkout main -- < file >" command restores a specific file to the version that exists on the main branch. For example: git checkout main -- git_understanding.md; This is useful when I have made unwanted changes to one file and want to restore it without affecting changes in other files. One thing I learned is that this command can overwrite uncommitted changes in the selected file, so I should be careful when using it.
+
+-  The "git cherry-pick < commit >" command applies a specific commit from another branch to the current branch. This is useful when I need one particular fix or feature from another branch but do not want to merge all of the other changes from that branch. For example, if another developer has created a bug fix in a particular feature in a different branch, I could cherry-pick that specific fix onto another branch without merging the entire feature branch.
+
+- The "git log" command displays the commit history of a repository. I found git "log --oneline" particularly useful because it provides a shorter and easier-to-read list of commits and their commit IDs. This can help developers understand how a project has changed over time and identify specific commits when investigating previous work.
+
+- The "git blame" command shows which commit and developer last modified each line of a file. This can be useful when working on a large project and trying to understand why a particular line of code exists or who made a change. It is also good to find the person accountable for the particular change and we can further ask them why they made the change. 
+
+### What surprised you while testing these commands?
+
+- What really surprised me how there are plenty of other useful commands that help developers in very specific situations. It shows how there was a lot of thought put into these commands. I initially though git operations were just mostly on committing and merging works and changes, but I saw how there are commands where it helps developers gather information on the work, the changes on that work, and who worked on those changes. I also found git blame interesting because it provides additional context about the history of individual lines rather than only showing the overall commit history. These commands would be particularly useful to keep in mind when I finally join Focus Bear's project as I will be working with multiple developers, and these commands would make it easier to investigate previous changes, recover files, and selectively move changes between branches.
