@@ -100,12 +100,7 @@ This is useful when I already know the location of a file or folder.
 19. Use Finder tags
 
 - Finder allows files and folders to be given coloured tags and custom names. Tags can be used to organise files based on projects, priority, or other categories without moving the files into different folders.
-- For example, I could create tags such as:
-
-- University
-- Work
-- Important
-- To Review
+- For example, I could create tags such as: University, Work, Important, and To Review.
 
 20. Search using filters
 
