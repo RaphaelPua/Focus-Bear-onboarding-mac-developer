@@ -54,3 +54,17 @@ This change was created on a separate branch and will be cherry-picked.
 ### What surprised you while testing these commands?
 
 - What really surprised me how there are plenty of other useful commands that help developers in very specific situations. It shows how there was a lot of thought put into these commands. I initially though git operations were just mostly on committing and merging works and changes, but I saw how there are commands where it helps developers gather information on the work, the changes on that work, and who worked on those changes. I also found git blame interesting because it provides additional context about the history of individual lines rather than only showing the overall commit history. These commands would be particularly useful to keep in mind when I finally join Focus Bear's project as I will be working with multiple developers, and these commands would make it easier to investigate previous changes, recover files, and selectively move changes between branches.
+
+## Debugging with git bisect
+
+### What does git bisect do?
+
+- Git bisect is a debugging tool to help you identify which commit caused the bug. It uses binary searching between a known commit that is working with another commit that is broken. The tool then checks between those commits, and I am tasked to check if the bug is present within this commit, I then choose bad or good depending if that commit version has a bug or not. It helps us eventually to narrow down which commit introduced the bug.
+
+### When would you use it in a real-world debugging situation?
+
+- I would use git bisect when I experience a bug after conducting several commits, and I know that my code was working originally before the commits were done. I would use git bisect to find which commit has caused the issue. For instance, when working on a feature for Focus Bear, if a feature was working last week but stopped working after several changes, manually reviewing every commit could take a long time. git bisect would allow me to systematically narrow down the commits and identify where the problem was introduced.
+
+### How does it compare to manually reviewing commits?
+
+- Git bisect is more efficient in most cases as it helps conduct binary search for the developers, which is highly efficient in looking for the bug when there is a large amount of commits to go through.Instead of checking commits one at a time, Git can skip large sections of the commit history that are known to be good or bad. However, I would still need to test each commit that Git selects and correctly identify whether it is good or bad. This means git bisect does not automatically find the cause of the bug, but it makes the process of locating the problematic commit much faster and more organised. The only time manually reviewing commits would be faster is when there are only a handful or very few commits. 
