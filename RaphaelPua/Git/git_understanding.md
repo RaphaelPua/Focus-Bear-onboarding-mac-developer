@@ -104,3 +104,17 @@ Weaker Commits:
 ### How can poor commit messages cause issues later?
 
 - Poor commit messages can make a project's history difficult to understand and can make debugging more time-consuming. For example, a message such as fixed stuff does not explain what was changed, so another developer would need to go in the actual code and inspect it before they are able to understand the commit. This can become very problematic when using Git tools such as git log, git bisect, or when trying to determine when a feature pr bug was introduced. Furthermore, overly detailed messages can also make the commit history harder to read and scan through because there would be an overload of text and information.
+
+## Creating & Reviewing Pull Requests
+
+### Why are PRs important in a team workflow?
+
+- Pull Requests are important as they allow developers to review changes before they are merged into the main branch/codebase. They provide a structured place for team members to review code, identify potential problems, suggest improvements, and discuss implementation decisions. This helps reduce the chance of introducing bugs and also allows developers to learn from each other. Doing pull-requests also provide a way to record discussions and reasoning behind the changes or coding made by developers, it helps with looking back on the project's history when needed.
+
+### What makes a well-structured PR?
+
+- A well-structured PR should have a clear title and description that explain what was changed and why. The summary of changes should be focused on the main/specific feature, bug, or improvement rather than containing unrelated changes. It should also include information about how the changes were tested and link to a relevant issue if one exists. Keeping a PR small and focused makes it easier for reviewers to understand the changes and provide useful feedback.
+
+### What did you learn from reviewing an open-source PR?
+
+- I learned after reviewing an open-source PR, is that code review is more than simply checking whether the code works. Reviewers should ask questions, try to understand the reasoning of a code by asking questions, and also providing feedback and suggestions to the developer. Additionally, reviewers can further ask for more tests when they are not convince, ensuring that the merged code is robust and is without bugs. I also noticed that the discussion between the developer and reviewers provides useful context about why certain changes were made. Overall, I believe that Pull Requests can support both code quality and knowledge sharing within a development team.
