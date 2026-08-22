@@ -71,7 +71,7 @@ This change was created on a separate branch and will be cherry-picked.
 
 ## Writing Meaningful Commit Messages
 
-## Good and Bad Commits
+### Good and Bad Commits
 
 I analysed some good and bad commit messages, here is a list of them.
 
@@ -79,7 +79,7 @@ Good Commits:
 
 - util: fix formatting of functions returned from getters
 - module: report unreadable package.json
-- src: use DictionaryTemplate for permission diag channel message
+- test: avoid timer race in event loop delay test
 
 Weaker Commits:
 
@@ -87,8 +87,20 @@ Weaker Commits:
 - doc: remove synopsis
 - src: use concepts where appropriate
 
-## Make three commits in your repo with different commit message styles
+### Make three commits in your repo with different commit message styles
 
 - A vague commit message: "Added information"
 - An overly detailed commit message: "Added reflection and proof of experimenting with git commands such as git add and git commit"
-- A well-structured commit message: ""
+- A well-structured commit message: "doc: add good and bad commits reflection"
+
+### What makes a good commit message?
+
+- A good commit follows a few rules, such as adding a type prefix, should be in imperative mood like "complete" instead of "completed", and should be concise and describes the main change. It should give developers enough information to tell them what was changed without needing them to look at the code. Commit messages should also avoid including too much information in the subject line. If more context is needed, it can be added to the commit body.
+
+### How does a clear commit message help in team collaboration?
+
+- A clear commit messages makes it easier for the team to understand what has changed and why. This is especially useful when in a team and multiple developers are working on the same project. It allows the team to quickly review the project's history and understand and changes done to the code based on the previous history. Meaningful and clear messages can also ensure that the code reviews and debugging is easier to conduct because developers can identify commits related to a particular feature or bug without having to inspect every change.
+
+### How can poor commit messages cause issues later?
+
+- Poor commit messages can make a project's history difficult to understand and can make debugging more time-consuming. For example, a message such as fixed stuff does not explain what was changed, so another developer would need to go in the actual code and inspect it before they are able to understand the commit. This can become very problematic when using Git tools such as git log, git bisect, or when trying to determine when a feature pr bug was introduced. Furthermore, overly detailed messages can also make the commit history harder to read and scan through because there would be an overload of text and information.
