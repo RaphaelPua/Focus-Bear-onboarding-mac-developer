@@ -117,7 +117,7 @@ Weaker Commits:
 
 ### What did you learn from reviewing an open-source PR?
 
-- I learned after reviewing an open-source PR, is that code review is more than simply checking whether the code works. Reviewers should ask questions, try to understand the reasoning of a code by asking questions, and also providing feedback and suggestions to the developer. Additionally, reviewers can further ask for more tests when they are not convince, ensuring that the merged code is robust and is without bugs. I also noticed that the discussion between the developer and reviewers provides useful context about why certain changes were made. Overall, I believe that Pull Requests can support both code quality and knowledge sharing within a development team.
+- I learned after reviewing an open-source PR, is that code review is more than simply checking whether the code works. Reviewers should ask questions, try to understand the reasoning of a code by asking questions, and also providing feedback and suggestions to the developer. Additionally, reviewers can further ask for more tests when they are not convince, ensuring that the merged code is robust and is without bugs. I also noticed that the discussion between the developer and reviewers provides useful context about why certain changes were made. Git helps developers track changes to their code.
 
 ## CONFLICTTTTTTT
 
