@@ -3,6 +3,11 @@ function calculateTotal(price, quantity) {
     return total;
 }
 
+function calculateTotalDiscount(total, discount_percentage) {
+    const discount = total * discount_percentage;
+    return discount;
+}
+
 function calculateDiscount(total, discount) {
     return total - discount;
 }
