@@ -78,9 +78,17 @@ I analysed some good and bad commit messages, here is a list of them.
 Good Commits:
 
 - util: fix formatting of functions returned from getters
+- module: report unreadable package.json
+- src: use DictionaryTemplate for permission diag channel message
+
+Weaker Commits:
+
+- crypto: enable SIV and GCM-SIV modes in Cipher/Decipher APIs
+- doc: remove synopsis
+- src: use concepts where appropriate
 
 ## Make three commits in your repo with different commit message styles
 
 - A vague commit message: "Added information"
-- An overly detailed commit message: ""
+- An overly detailed commit message: "Added reflection and proof of experimenting with git commands such as git add and git commit"
 - A well-structured commit message: ""
