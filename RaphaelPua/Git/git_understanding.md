@@ -68,3 +68,19 @@ This change was created on a separate branch and will be cherry-picked.
 ### How does it compare to manually reviewing commits?
 
 - Git bisect is more efficient in most cases as it helps conduct binary search for the developers, which is highly efficient in looking for the bug when there is a large amount of commits to go through.Instead of checking commits one at a time, Git can skip large sections of the commit history that are known to be good or bad. However, I would still need to test each commit that Git selects and correctly identify whether it is good or bad. This means git bisect does not automatically find the cause of the bug, but it makes the process of locating the problematic commit much faster and more organised. The only time manually reviewing commits would be faster is when there are only a handful or very few commits. 
+
+## Writing Meaningful Commit Messages
+
+## Good and Bad Commits
+
+I analysed some good and bad commit messages, here is a list of them.
+
+Good Commits:
+
+- util: fix formatting of functions returned from getters
+
+## Make three commits in your repo with different commit message styles
+
+- A vague commit message: "Added information"
+- An overly detailed commit message: ""
+- A well-structured commit message: ""
