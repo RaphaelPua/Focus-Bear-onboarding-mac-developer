@@ -121,4 +121,4 @@ Weaker Commits:
 
 ## Merge Conflict Practice
 
-- This is to make a conflict with other branch
+- This is to make a merge conflict
