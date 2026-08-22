@@ -105,6 +105,4 @@ This is useful when I already know the location of a file or folder.
 20. Search using filters
 
 - Finder search can be narrowed down using filters such as file type, modification date, and other attributes. This is useful when I know something about a file but don't remember its exact name or location.
-- For example, I can search for:
-
-- kind:pdf: to find PDF files.
+- For example, I can search for -> kind:pdf: to find PDF files.
