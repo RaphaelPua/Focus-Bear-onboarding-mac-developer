@@ -24,6 +24,11 @@
     "oneline",
     "glog",
     "mkcd",
-    "cproj"
+    "cproj",
+    "preboot",
+    "APFS",
+    "writable",
+    "diskutil",
+    "dialog"
   ]
 }
