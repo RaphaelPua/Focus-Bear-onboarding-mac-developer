@@ -13,7 +13,7 @@ protocol Describable {
 
 extension Describable {
     func describe() {
-        print("This is \(name).")
+        print("This is \(name).") // default implementation
     }
 }
 
