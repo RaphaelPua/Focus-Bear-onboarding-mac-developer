@@ -22,6 +22,8 @@
     "microbreaks",
     "microbreak",
     "oneline",
-    "glog"
+    "glog",
+    "mkcd",
+    "cproj"
   ]
 }
