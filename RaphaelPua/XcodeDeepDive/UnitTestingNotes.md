@@ -1,6 +1,6 @@
-## 7.6 Unit Tests #23 — Notes
+# Unit Tests — Notes
 
-### 🎯 Goal
+## 🎯 Goal
 
 Learn how to create **unit tests in an Xcode project** and verify that individual pieces of code work correctly.
 
