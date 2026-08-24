@@ -30,6 +30,9 @@
     "writable",
     "diskutil",
     "dialog",
-    "LLDB"
+    "LLDB",
+    "notarytool",
+    "spctl",
+    "xcrun"
   ]
 }
