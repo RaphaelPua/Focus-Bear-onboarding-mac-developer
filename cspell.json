@@ -33,6 +33,7 @@
     "LLDB",
     "notarytool",
     "spctl",
-    "xcrun"
+    "xcrun",
+    "codesign"
   ]
 }
