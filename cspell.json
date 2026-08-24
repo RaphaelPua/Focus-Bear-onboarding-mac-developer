@@ -29,6 +29,7 @@
     "APFS",
     "writable",
     "diskutil",
-    "dialog"
+    "dialog",
+    "LLDB"
   ]
 }
