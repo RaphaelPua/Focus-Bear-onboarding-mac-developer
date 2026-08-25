@@ -34,6 +34,8 @@
     "notarytool",
     "spctl",
     "xcrun",
-    "codesign"
+    "codesign",
+    "AXUI",
+    "tccutil"
   ]
 }
