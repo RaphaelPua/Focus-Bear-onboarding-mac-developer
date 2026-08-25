@@ -20,7 +20,7 @@ Network requests **can fail**, so an app should handle errors instead of assumin
 
 ---
 
-# 2. Handling Network Errors
+## 2. Handling Network Errors
 
 `URLSession` can return an `Error` when something goes wrong.
 
@@ -51,7 +51,7 @@ Handle the error
 
 ---
 
-# 3. `URLError`
+## 3. `URLError`
 
 Swift provides `URLError` for many common networking problems.
 
@@ -69,7 +69,7 @@ The `as?` means:
 
 ---
 
-# 4. Checking the Specific Error
+## 4. Checking the Specific Error
 
 We can use `switch` to determine what went wrong:
 
@@ -105,7 +105,7 @@ The request timed out.
 
 ---
 
-# 5. Timeout Errors
+## 5. Timeout Errors
 
 A timeout occurs when a request takes too long.
 
@@ -127,7 +127,7 @@ This makes it much more likely that you'll trigger a timeout error.
 
 ---
 
-# 6. JSON Decoding Errors
+## 6. JSON Decoding Errors
 
 Networking isn't only about connecting to the server.
 
@@ -135,7 +135,7 @@ The server might return JSON that doesn't match what your Swift code expects.
 
 For example:
 
-### Swift expects:
+### Swift expects
 
 ```swift
 struct User: Codable {
@@ -144,7 +144,7 @@ struct User: Codable {
 }
 ```
 
-### But the JSON contains:
+### But the JSON contains
 
 ```json
 {
@@ -164,7 +164,7 @@ Therefore, decoding fails.
 
 ---
 
-# 7. Handling Decoding Errors
+## 7. Handling Decoding Errors
 
 Use `do/catch`:
 
@@ -195,7 +195,7 @@ Object  Error
 
 ---
 
-# 8. `do`, `try`, and `catch`
+## 8. `do`, `try`, and `catch`
 
 ### `do`
 
@@ -239,7 +239,7 @@ catch the error
 
 ---
 
-# 9. Why Error Handling Matters
+## 9. Why Error Handling Matters
 
 Without error handling:
 
@@ -281,7 +281,7 @@ Invalid JSON
 
 ---
 
-# 10. Key Concepts to Remember
+## 10. Key Concepts to Remember
 
 ### `Error`
 
