@@ -1,6 +1,6 @@
 # Accessibility APIs — Notes
 
-### 🎯 Goal
+## 🎯 Goal
 
 Learn how macOS **Accessibility APIs (AX API)** allow an application to inspect and interact with UI elements from other applications.
 
@@ -8,7 +8,7 @@ The main deliverable is:
 
 > **Code snippet interacting with AX API**
 
-### What is the AX API?
+## What is the AX API?
 
 The **Accessibility API** allows assistive technologies and authorised applications to interact with other apps' user interfaces.
 
@@ -26,7 +26,7 @@ The main framework is:
 import ApplicationServices
 ```
 
-### Important concept: `AXUIElement`
+## Important concept: `AXUIElement`
 
 `AXUIElement` represents an accessibility-enabled UI element.
 
@@ -44,7 +44,7 @@ Text
 
 Each of these can potentially be represented by an `AXUIElement`.
 
-### Simple example
+## Simple example
 
 A basic example can get the accessibility element representing an application:
 
@@ -56,7 +56,7 @@ let systemWideElement = AXUIElementCreateSystemWide()
 
 `AXUIElementCreateSystemWide()` creates an accessibility element representing the system-wide accessibility object.
 
-### Getting an attribute
+## Getting an attribute
 
 You can use `AXUIElementCopyAttributeValue()` to retrieve information about an accessibility element.
 
@@ -84,7 +84,7 @@ if result == .success {
 
 This attempts to find the **currently focused UI element**.
 
-### Performing an action
+## Performing an action
 
 The AX API can also perform actions on supported elements:
 
@@ -97,7 +97,7 @@ AXUIElementPerformAction(
 
 For example, an application could potentially press an accessible button.
 
-### ⚠️ Accessibility permission
+## ⚠️ Accessibility permission
 
 Applications generally need the user's permission to use Accessibility APIs to control other applications.
 
@@ -107,7 +107,7 @@ The user can manage this under:
 
 Your application needs to be authorised before it can interact with other applications through the AX API.
 
-### Example workflow
+## Example workflow
 
 ```text
 Your App
@@ -121,7 +121,7 @@ Find UI Element
 Read / interact with element
 ```
 
-### Why is this useful?
+## Why is this useful?
 
 Accessibility APIs are useful for:
 
@@ -133,7 +133,7 @@ Accessibility APIs are useful for:
 * Keyboard/mouse automation
 * Applications that need to interact with other applications
 
-### 📌 Key Takeaways
+## 📌 Key Takeaways
 
 * **AX API** = macOS Accessibility API.
 * Use `ApplicationServices`.
@@ -142,31 +142,3 @@ Accessibility APIs are useful for:
 * `AXUIElementPerformAction()` can perform supported actions.
 * Accessibility access must be granted by the user.
 * Only request accessibility access when your application genuinely needs it.
-
-### Deliverable for #8.3
-
-You only need to provide a **code snippet interacting with the AX API**.
-
-A good minimal example is:
-
-```swift
-import ApplicationServices
-
-let systemWideElement = AXUIElementCreateSystemWide()
-
-var focusedElement: CFTypeRef?
-
-let result = AXUIElementCopyAttributeValue(
-    systemWideElement,
-    kAXFocusedUIElementAttribute as CFString,
-    &focusedElement
-)
-
-if result == .success {
-    print("Found focused UI element")
-} else {
-    print("Could not find focused UI element")
-}
-```
-
-This is enough to demonstrate that you understand how to **create an AX element and retrieve information through the Accessibility API**.
