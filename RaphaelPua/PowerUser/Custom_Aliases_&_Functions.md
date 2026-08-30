@@ -4,39 +4,39 @@
 
 Zsh allows me to create custom aliases and functions that make frequently used Terminal commands faster and easier to remember.
 
-## Aliases (```zsh)
+## Aliases
 
-1. `ll` — Detailed file listing
+1. `ll` - Detailed file listing
 
 ```zsh
-alias ll = 'ls -lah'
+alias ll='ls -lah'
 ```
 
 - This allows me to type "ll" instead of "ls -lah". It displays files in a detailed format, including hidden files, permissions, file sizes, and modification dates.
 
-2. .. — Move up one directory
+2. .. - Move up one directory
 
-- alias .. = 'cd ..'
+- alias ..='cd ..'
 - This allows me to quickly move to the parent directory without typing cd .. every time.
 
-3. gst — Check Git status
+3. gst - Check Git status
 
-- alias gst = 'git status'
+- alias gst='git status'
 - This provides a shorter command for checking the current Git repository status.
 
-4. glog — View Git history
+4. glog - View Git history
 
-- alias glog = 'git log --oneline --graph --decorate --all'
+- alias glog='git log --oneline --graph --decorate --all'
 - This creates a shorter command for viewing a compact graphical representation of the Git commit history and branches.
 
-5. gaa — Stage all Git changes
+5. gaa - Stage all Git changes
 
-- alias gaa = 'git add .'
+- alias gaa='git add .'
 - This provides a shorter command for staging all changes in the current repository.
 
 ## Functions
 
-1. mkcd — Create and enter a directory
+1. mkcd - Create and enter a directory
 
 ```zsh
 mkcd() {
@@ -48,7 +48,7 @@ mkcd() {
 - For example: mkcd project
 - Equivalent to: "mkdir -p project" & "cd project"
 
-2. cproj — Navigate to my development projects
+2. cproj - Navigate to my development projects
 
 ```zsh
 cproj() {
@@ -58,5 +58,3 @@ cproj() {
 
 - This function allows me to quickly navigate to my Focus Bear onboarding repository without typing the full path.
 - Ex: cproj
-
-
