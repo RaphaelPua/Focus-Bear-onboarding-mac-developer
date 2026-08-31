@@ -8,10 +8,7 @@ Zsh allows me to create custom aliases and functions that make frequently used T
 
 1. 'll' - Detailed file listing
 
-```zsh
-alias ll='ls -lah'
-```
-
+- alias ll='ls -lah'
 - This allows me to type "ll" instead of "ls -lah". It displays files in a detailed format, including hidden files, permissions, file sizes, and modification dates.
 
 2. .. - Move up one directory
