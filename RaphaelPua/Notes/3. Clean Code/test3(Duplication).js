@@ -1,23 +1,13 @@
-function getNewsFromWeb(type) {
-    const allNews = getNewsFromWeb();
-    const news = [];
-    
-    for (let i = allNews.length - 1; i >= 0; i--){
-        if (allNews[i].type === type) {
-            news.push(allNews[i]);
-        }
-    }
-    return news;
+const PI = 3.14159;
+
+function getCircleArea(radius) {
+    return PI * radius * radius;
 }
 
-function getJavascriptNews() {
-   getNewsFromWeb("javascript");
-}
- 
-function getRustNews() { 
-    getNewsFromWeb("rust");
+function getCircleCircumference(radius) {
+    return 2 * PI * radius;
 }
 
-function getGolangNews() { 
-    getNewsFromWeb("golang");
+function getSphereVolume(radius) {
+    return (4 / 3) * PI * radius * radius * radius;
 }
