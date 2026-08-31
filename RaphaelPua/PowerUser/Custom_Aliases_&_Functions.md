@@ -6,7 +6,7 @@ Zsh allows me to create custom aliases and functions that make frequently used T
 
 ## Aliases
 
-1. `ll` - Detailed file listing
+1. 'll' - Detailed file listing
 
 ```zsh
 alias ll='ls -lah'
