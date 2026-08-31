@@ -1,13 +1,35 @@
-const PI = 3.14159;
-
-function getCircleArea(radius) {
-    return PI * radius * radius;
+function fetchAllNews() {
+    return [
+        { title: 'JS News 1', type: 'javascript' },
+        { title: 'Rust News 1', type: 'rust' },
+        { title: 'JS News 2', type: 'javascript' },
+        { title: 'Golang News 1', type: 'golang' },
+    ];
 }
 
-function getCircleCircumference(radius) {
-    return 2 * PI * radius;
+function getNewsFromWeb(type) {
+    const allNews = fetchAllNews();
+    const news = [];
+    for (let i = allNews.length - 1; i >= 0; i--) {
+        if (allNews[i].type === type) {
+            news.push(allNews[i]);
+        }
+    }
+    return news;
 }
 
-function getSphereVolume(radius) {
-    return (4 / 3) * PI * radius * radius * radius;
+function getJavascriptNews() {
+    return getNewsFromWeb("javascript");
 }
+
+function getRustNews() {
+    return getNewsFromWeb("rust");
+}
+
+function getGolangNews() {
+    return getNewsFromWeb("golang");
+}
+
+console.log('JavaScript news:', getJavascriptNews());
+console.log('Rust news:', getRustNews());
+console.log('Golang news:', getGolangNews());
