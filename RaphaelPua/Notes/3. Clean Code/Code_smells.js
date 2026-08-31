@@ -28,7 +28,7 @@ function processUser(user) {
         return "Enter a valid user";
     }
 
-    if (!roleIsAdmin(user)) {
+    if (!isUserAdmin(user)) {
         return "User is not an admin";
     }
 
