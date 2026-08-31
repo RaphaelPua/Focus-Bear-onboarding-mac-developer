@@ -86,17 +86,17 @@ A good approach is:
 ## What makes a good variable or function name?
 
 - A good function and variable names indicates their function intuitively. The variables should indicate what they are or what they store, while function names should tell you what they do. Following the naming conventions or formats is also important to remain consistent.
-- For example, userId is clearer than x because it immediately explains what the value represents. Similarly, checkUserAccess() is more descriptive than doStuff() because it tells us what the function does. For functions that return a Boolean value, names such as isAdminUser() or hasPermission() are useful because they make it clear that the function is checking a condition.
+- For example, userId is clearer than using just variable 'x' because it immediately explains what the value represents. Similarly, checkUserAccess() is more descriptive than doStuff() because it tells us what the function does. For functions that return a Boolean value, names such as isAdminUser() or hasPermission() are useful because they make it clear that the function is checking a condition.
 
 ## What issues can arise from poorly named variables?
 
 - A poorly named variable will make it significantly harder for the code to be maintained or changed. It would further take time for the developer to change the code and help fix the issue as the developer may need to ask the one who made the code what the variables or functions do, or they would need to analyse the code more thoroughly first. It can also lead to issues as developers may mistake the variable or function for something else.
 
-# Writing Small, Focused Functions
-
 ## How did refactoring improve code readability?
 
 - The refactored version was easier to read because the purpose of each variable and function was immediately clear. I could understand what the code was doing without having to trace each variable or inspect the function implementation. Showing that meaningful names can make code easier to understand and maintain without changing its functionality.
+
+# Writing Small, Focused Functions
 
 ## Why is breaking down functions beneficial?
 
