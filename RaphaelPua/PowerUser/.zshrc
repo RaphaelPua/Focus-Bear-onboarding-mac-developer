@@ -1,10 +1,10 @@
 # Focus Bear onboading aliases
 
-alias ll = 'ls -lah'
-alias .. = 'cd ..'
-alias gst = 'git status'
-alias glog = 'git log --oneline --graph --decorate --all'
-alias gaa = 'git add .'
+alias ll='ls -lah'
+alias ..='cd ..'
+alias gst='git status'
+alias glog='git log --oneline --graph --decorate --all'
+alias gaa='git add .'
 
 # Functions
 
