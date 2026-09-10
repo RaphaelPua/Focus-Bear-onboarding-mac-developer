@@ -5,22 +5,27 @@
 1. `pwd` - Shows full file path
 
 - `pwd` displays the full path of the directory I am currently working in.
+- HOW: type `pwd` on the terminal
+- Ex: `pwd`
 
 2. `ls` - List Files
 
-- ls` displays the files and folders inside the current directory.
+- `ls` displays the files and folders inside the current directory.
+- HOW: type `ls` on the terminal
+- Ex: `ls`
 
 3. `cd` - Change Directory
 
 - `cd` allows me to move into another directory.
-- I can move up one directory using: `cd ..`
-- I can return to my home directory using: `cd ~`
+- HOW: `cd <filename>` 
+- Ex: I can move up one directory using `cd ..`
+- Ex: I can return to my home directory using `cd ~`
 
 4. `mkdir` - Make Directory or Folder
 
 - `mkdir` creates a new directory.
-- Ex: `mkdir terminal-practice` (This creates a folder called terminal-practice.)
-- I can also create nested directories using: `mkdir -p projects/javascript`
+- HOW: `mkdir terminal-practice` (This creates a folder called terminal-practice.)
+- Ex: I can also create nested directories using `mkdir -p projects/javascript`
 
 5. `touch` - Create a File
 
