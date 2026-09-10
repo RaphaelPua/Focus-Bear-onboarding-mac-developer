@@ -8,6 +8,12 @@ function calculateAverageScore(scores) {
         return null; // Return NULL if the scores array is empty to avoid division by zero
     }
 
+    for (let i = 0; i < scores.length; i++) {
+        if (typeof scores[i] !== 'number' || Number.isNaN(scores[i])) {
+            return null; // Return null if any item isn't a valid number
+            }
+    }
+
     let total = 0;
 
     for (let i = 0; i < scores.length; i++) {
@@ -31,4 +37,8 @@ test("returns null for an empty array", () => {
 
 test("returns null for invalid input", () => {
   expect(calculateAverageScore(null)).toBe(null);
+});
+
+test("returns null for finding an invalid input within the array", () => {
+  expect(calculateAverageScore([80, 'hi', 70])).toBe(null);
 });
