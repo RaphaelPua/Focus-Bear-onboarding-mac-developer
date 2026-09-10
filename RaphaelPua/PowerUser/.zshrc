@@ -1,4 +1,4 @@
-# Focus Bear onboading aliases
+# Focus Bear onboarding aliases
 
 alias ll='ls -lah'
 alias ..='cd ..'
@@ -13,5 +13,5 @@ mkcd() {
 }
 
 cproj() {
-    cd "$HOME/Focus-Bear-onboarding-mac-developer"
+    cd "$HOME/Focus-Bear-onboarding-mac-developer" || return
 }
