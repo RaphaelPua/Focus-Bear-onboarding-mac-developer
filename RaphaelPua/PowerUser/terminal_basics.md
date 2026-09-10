@@ -1,6 +1,6 @@
 # Terminal Basics
 
-## Navigation & Basic Shell Commands
+## Navigation and Basic Shell Commands
 
 1. `pwd` - Shows full file path
 
@@ -8,7 +8,7 @@
 
 2. `ls` - List Files
 
-- `ls` displays the files and folders inside the current directory.
+- ls` displays the files and folders inside the current directory.
 
 3. `cd` - Change Directory
 
